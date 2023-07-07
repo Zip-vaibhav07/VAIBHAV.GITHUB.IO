@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Personal Webpage</title>
+    
+    <style>
+         /* Global Styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, p {
+    
+    text-align: center;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    background-size: 50%;
+
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Profile Styles */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: cornsilk;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/* Skills Style*/
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills-title {
+    
+
+    color: #f4f5f5;
+    padding: 20px;
+    width: 95%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    font-size: 150%;
+    list-style: none;
+    padding: 0;
+    margin: 100;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-item {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 8px 40px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+/* Projects Styles */
+.projects {
+    margin-bottom: 40px;
+}
+
+.projects-title {
+
+    
+    
+    color: #fff;
+    padding: 20px;
+    border-radius: 25%;
+    width: 95%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card {
+    background-color: #f7f6f641;
+    color: #333;
+    padding: 20px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.project-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+
+/* Contact Styles */
+.contact {
+    text-align: center;
+}
+
+.contact-title {
+    
+    
+    color: #fff;
+    padding: 20px;
+    width: 95%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    font-size: 150%;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+body{
+     
+    background-image: url(zipare.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    text-align: left;
+}
+h6{
+    text-align: center;
+}
+h2{
+    font-size: 200%;
+    font-style: italic;
+    color: rgb(243, 243, 242);
+   
+}
+
+.social{
+    font-size: 145%;
+}
+.facebook{
+    display: inline-block;
+    
+    
+    background-color:#eef0f163;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+    margin: 100 5px;
+    width: 100%;
+    border-radius: 100px;
+    text-decoration: none;
+
+}
+.instagram{
+    display: inline-block;
+    
+    
+    background-color:#eef0f163;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+    width: 100%;
+    border-radius: 45px;
+    text-decoration: none;
+}
+.twitter{
+    display: inline-block;
+    
+    
+    background-color: #eef0f163;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+    width: 100%;
+    border-radius: 45px;
+    text-decoration: none;
+}
+.snapchat{
+    display: inline-block;
+    
+    
+    background-color: #eef0f163;
+    color: #fff;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+    width: 100%;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.fa-co{
+    color:#edf4f4;
+    
+}
+.in-co{
+    color:#edf4f4;
+    
+}
+.ti-co{
+    color:#edf4f4;
+    
+}
+.sn-co{
+    color:#edf4f4;
+    
+}
+
+    
+
+    </style>
+    
+    
+</head>
+<body>
+
+
+    <div class="container">
+        
+        <header class="header">
+            <h1>Student Personal Webpage</h1>
+        </header>
+        
+        <section class="profile">
+            <br><br>
+            <img src="vaibhav.jpeg" alt="Profile Picture" class="profile-image">
+            <h1 class="profile-name">VAIBHAV ZIPARE</h1>
+            <h2>Computer Science Student</h2>
+            
+        </section>
+        
+        
+        
+        <section class="skills">
+            <h2 class="skills-title">Skills</h2>
+            <hr>
+            <ul class="skills-list">
+                <li class="skills-item">HTML</li>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">C</li>
+                <li class="skills-item">C++</li>
+                
+            </ul>
+        </section>
+        
+        <section class="projects">
+            <h2 class="projects-title">Projects</h2>
+            <hr>
+            <br>
+            <div class="project-card">
+                <h3 class="project-title">Personal Website</h3>
+                
+                <p class="project-description">Developed a personal website using HTML, CSS.</p>
+            </div>
+            <br>
+            <div class="project-card">
+                 
+                <h3 class="project-title">Institute Webpage</h3>
+                <p class="project-description">Built an Institute website with informative functionality.</p>
+            </div>
+        </section>
+
+        <br>
+         
+        <h2>Social Media</h2>
+        <div class="socia-media-buttons">
+            <hr>
+            <br>
+            <br>
+              <button class="facebook"><a style="font-size: 120%; font-style: normal; text-decoration: solid;" href="https://www.facebook.com/profile.php?id=100090938134035&mibextid=ZbWKwL" class="fa-co" >FACEBOOK</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <button class="instagram"><a style="font-size: 120%; font-style: normal; text-decoration: solid;" href="https://instagram.com/v_a_i_b_h_a_v_0723?igshid=MzNlNGNkZWQ4Mg==" class="in-co">INSTAGRAM</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br>
+            <button class="twitter"><a style="font-size: 120%; font-style: normal; text-decoration: solid;" href="https://twitter.com/VaibhavZipare?t=9nQucHkXEKQ_A_BwSg-L9A&s=09" class="ti-co" >TWIITER</a></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="snapchat"><a style="font-size: 120%; font-style: normal; text-decoration: solid;"href="https://www.snapchat.com/add/zip_vaibhav0723?share_id=RFTchOmZfGw&locale=en-US" class="sn-co">SNAPCHAT</a></button>
+            
+            <br>
+           
+            
+        </div>
+    </section>
+          
+           
+        
+        <section class="contact">
+            <h2 class="contact-title">Contact</h2>
+            <hr>
+            <br>
+            <form class="contact-form" action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <h6>&copy;2023 VaibhavZipare. All rights reserved</h6>
+    <h6></h6>
+</body>
+</html>
